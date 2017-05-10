@@ -1,0 +1,34 @@
+= 2D I-SLSJF SLAM Algoritması Kodunun Derlenmesi, Çalıştırılması 
+
+== 1. Gerekli Olan Derleyici
+
+- Matlab
+
+Matlab'ı kendi sitesinden ücretsiz deneme sürümünü indirerek kullanabilirsiniz. https://www.mathworks.com/products/matlab.html 
+
+== 2. 2D I-SLSJF Iterated Sparse Local Submap Joining Filter 
+
+=== 2.1. I-SLSJF Nedir?
+
+SLSJF, büyük ölçekli özellik tabanlı haritalar oluşturmak için yeni bir yerel alt haritaların katılması algoritmasıdır. Algoritma, yakın zamanda geliştirilen Seyrek Yerel Alt Harita Katılma Filtresine (SLSJF) dayalıdır ve tahmini geliştirmek için birden çok iterasyon kullanır bu yüzden ötelenmiş SLSJF (I-SLSJF) denir. Bu algoritmanın inputları, yerel alt haritalar dizisidir. Algoritmanın çıktısı ise tüm özelliklerin global konumlarını ve yerel alt-haritaların tüm robot başlangıç ​​/ bitiş pozlarını içeren geniş çaplı bir haritadır. MATLAB kaynak koduyla birlikte bir dizi simülasyon ve deneysel veri seti sağlanmaktadır.
+
+=== 2.2. Algoritmanın Derlenmesi , Çalışması
+
+⦁	Öncelikle MATLAB kurulumunu gerçekleştiriyoruz. 
+
+⦁	https://openslam.org/2d-i-slsjf.html linkinden indirdiğimiz kaynak kodu MATLAB'da açıyoruz. 
+
+⦁	MainLoop.m dosyasını çalıştırıyoruz. 
+
+⦁	Sonuç olarak Victoria Park datasetinden 200 yerel harita katılmış sonucu göreceğiz. 
+
+⦁	Farklı veri seti kullanmak için DoSetupParam.m dosyasındaki Params.Simulation değişkenini değiştiriyoruz
+
+
+
+
+
+
+
+
+
