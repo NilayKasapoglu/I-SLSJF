@@ -16,7 +16,7 @@ SLSJF, büyük ölçekli özellik tabanlı haritalar oluşturmak için yeni bir 
 
 ⦁	Öncelikle MATLAB kurulumunu gerçekleştiriyoruz. 
 
-⦁	https://openslam.org/2d-i-slsjf.html linkinde, Further Information bölümünden indirdiğimiz kaynak kodu MATLAB'da açıyoruz. 
+⦁	http://services.eng.uts.edu.au/~sdhuang/research_SLAM_map_joining.htm linkinde MATLAB code for 2D I-SLSJF kısmından kodu indirip MATLAB'da açıyoruz. 
 
 ⦁	MainLoop.m dosyasını çalıştırıyoruz. 
 
